@@ -173,9 +173,9 @@ vector<int> solve2(int **cells,int x1,int y1,int x2,int y2,int WIDTH,int HEIGHT)
 			stk.push(u_n);
 			if(row==x2 && col==y2){
 				//cout <<"------------------------------------------>sol FOUND"<<endl;
-				for(vector<int>::iterator it = sol.begin();it!=sol.end();it++){
+				//for(vector<int>::iterator it = sol.begin();it!=sol.end();it++){
 					//cout <<*it<<" ,";
-				}
+				//}
 				return sol;
 			}
 		}
