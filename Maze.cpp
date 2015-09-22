@@ -110,7 +110,7 @@ void Maze::mazeDFS(){
 
 void Maze::drawMaze(){
 	int v,r0,c0,v0;
-	int RIGHT = 1;  /// 0001
+	int RIGHT = 1;  /// 0001    1 = wall, 0 = path
 	int UP = 2;     /// 0010
 	int LEFT = 4;   /// 0100
 	int DOWN = 8;   /// 1000
