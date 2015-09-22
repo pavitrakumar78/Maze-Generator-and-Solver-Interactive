@@ -67,7 +67,6 @@ void Maze::init(){
 			}
 		}
 	}
-	// zero or the  first cell is not connected to either of the adjacent nodes so to fix->
 	int v_temp = (0+1)*WIDTH+(0);
 	m_g->addEdge(0,v_temp);
 	m_g->addEdge(v_temp,0);
