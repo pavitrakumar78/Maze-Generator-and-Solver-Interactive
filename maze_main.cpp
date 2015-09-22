@@ -392,8 +392,8 @@ void disp_message_2(){
 	SetConsoleTextAttribute (GetStdHandle(STD_OUTPUT_HANDLE), 0|14);
 	cout << "\tWelcome to my MAZE Generator/Solver.\n\n";
 	SetConsoleTextAttribute (GetStdHandle(STD_OUTPUT_HANDLE), 0|15);
-	cout << "\tEnter WIDTH and HEIGHT of the MAZE:\n";
-	cout << "\tNote: WIDTH and HEIGHT must be > 2 and equal\n";
+	cout << "\tEnter SIZE of the MAZE:\n";
+	cout << "\tNote: SIZE must be > 2\n";
 	cout << "\tPress CTRL+C to exit.\n";
 }
 int main(){
@@ -405,14 +405,15 @@ int main(){
 	int ex1 = 0;
 	int game = true;
 	while(game){
-		int width;//= 20;
-		int height;// = 20;
+		int width;
+		int height;
 		disp_message_2();
 		bool inp = true;
 		while(inp){
-			cin >> width >> height;
-			if(width==height && width>2 && height > 2){
-				inp=false;
+			cin >> width ;
+			height = width;
+			if(width>2){
+				inp=false; //break out of loop
 			}else{
 				cout << "Enter proper values!" << endl;
 			}
