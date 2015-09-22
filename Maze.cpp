@@ -142,15 +142,15 @@ void Maze::drawMaze(){
 			}
 		}
 	}
-	///Randomize this.<- no need..-.-..
+
 	cells[0][0] &= ~LEFT;
 	cells[HEIGHT-1][WIDTH-1] &= ~RIGHT;
 
-	for(int i = 0; i < HEIGHT; i++){
-		for(int col = 0;col<WIDTH;col++){
+//	for(int i = 0; i < HEIGHT; i++){
+//		for(int col = 0;col<WIDTH;col++){
 			//cells[i][col] = 0xF; //-> 1111
 			// cout << cells[i][col]<<" ";
-		}
-		cout << endl;
-	}
+//		}
+//		cout << endl;
+//	}
 }
