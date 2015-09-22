@@ -146,7 +146,7 @@ int getUnvisited2(bool **visited,int x,int y,int WIDTH,int HEIGHT,int **cells){
 	}
 	return 999;
 }
-///below works for perfect mazes and non-perfect mazes
+
 vector<int> solve2(int **cells,int x1,int y1,int x2,int y2,int WIDTH,int HEIGHT){
 	bool **visited;
 	int row,col;
