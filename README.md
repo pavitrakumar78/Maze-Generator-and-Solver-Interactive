@@ -10,10 +10,10 @@ Execute a.out (Linux) or a.exe (Windows)
 
 ## Screenshots:
 
-<img src="https://github.com/pavitrakumar78/Maze-Generator-and-Solver-Interactive/edit/master/images/img1.png" />  
+<img src="https://github.com/pavitrakumar78/Maze-Generator-and-Solver-Interactive/blob/master/images/img1.png" />  
 
-<img src="https://github.com/pavitrakumar78/Maze-Generator-and-Solver-Interactive/edit/master/images/img2.png" />  
+<img src="https://github.com/pavitrakumar78/Maze-Generator-and-Solver-Interactive/blob/master/images/img2.png" />  
 
-<img src="https://github.com/pavitrakumar78/Maze-Generator-and-Solver-Interactive/edit/master/images/img3.png" />  
+<img src="https://github.com/pavitrakumar78/Maze-Generator-and-Solver-Interactive/blob/master/images/img3.png" />  
 
-<img src="https://github.com/pavitrakumar78/Maze-Generator-and-Solver-Interactive/edit/master/images/img4.png" />  
+<img src="https://github.com/pavitrakumar78/Maze-Generator-and-Solver-Interactive/blob/master/images/img4.png" />  
